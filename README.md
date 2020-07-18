@@ -1,2 +1,2 @@
-# Api para estudos relizado junto a 1ª  turma online.
+# Api Spring boot + hibernate + testes h2
 Api rest com spring boot para explicação aos alunos
