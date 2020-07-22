@@ -43,8 +43,12 @@ public class UserService {
 	}
 	
 	
-	public User delete(User obj) {
-		
+	/**
+	 * Deleta um objeto pelo id
+	 * @param id Código do usuário a ser eliminado
+	 */
+	public void delete(Long id) {
+		repository.deleteById(id);
 	}
 	
 	
