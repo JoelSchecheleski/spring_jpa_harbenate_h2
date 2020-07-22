@@ -51,5 +51,28 @@ public class UserService {
 		repository.deleteById(id);
 	}
 	
+	/**
+	 * Atualiza um objeto
+	 * @param id Código do usuário a ser localizado
+	 * @param obj Objeto recebido no contexto
+	 * @return Objeto usuário atualizado
+	 */
+	public User update(Long id, User obj) {
+		User entity = repository.getOne(id);
+		update(entity, obj);
+		return repository.save(entity);
+	}
+
+	/**
+	 * Método privado para atualização de entidade e objeto
+	 * @param entity Entidade a ser atualizada
+	 * @param obj Objeto recebido por contexto
+	 */
+	private void update(User entity, User obj) {
+		entity.setName(obj.getName());
+		entity.setEmail(obj.getEmail());
+		entity.setPhone(obj.getPhone());
+	}
+	
 	
 }
