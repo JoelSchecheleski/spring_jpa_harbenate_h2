@@ -1,5 +1,5 @@
-# Api Spring boot + hibernate + testes h2
-Api rest com spring boot para explicação aos alunos
+# Sistema básico de de pedidos
+Api rest com spring boot para explicação de relacionamentos entre entidades objeto relacional
 
 ![logical layer](https://user-images.githubusercontent.com/3439261/87938860-8e8be400-ca6d-11ea-8f56-fffca7e3d116.PNG)
 
