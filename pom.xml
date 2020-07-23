@@ -16,7 +16,7 @@
 	<description>Projeto para o curso da primeira turma</description>
 
 	<properties>
-		<java.version>${java.version}</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
